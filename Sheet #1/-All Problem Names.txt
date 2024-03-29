@@ -21,3 +21,4 @@ S - Interval
 T - Sort Numbers
 U - Float or int
 V - Comparison
+W - Mathematical Expression
