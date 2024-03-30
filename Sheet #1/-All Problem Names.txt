@@ -22,3 +22,6 @@ T - Sort Numbers
 U - Float or int
 V - Comparison
 W - Mathematical Expression
+X - Two intervals
+Y - The last 2 digits
+Z - Hard Compare
