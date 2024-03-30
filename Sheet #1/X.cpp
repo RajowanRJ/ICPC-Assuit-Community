@@ -7,10 +7,14 @@ int main ()
     long l1, r1, l2, r2;
     cin >> l1 >> r1 >> l2 >> r2;
 
-    if (l1 <= r1 && l2 <= r2 && l2 <= r1) {
-        cout << l2 << " " << r1;
+    
+    if (l1 <= r1 && l2 <= r2) {
+        if (max(l1,l2) > min (r1, r2)){
+            cout << "-1";
+        }
+        else {
+            cout << max(l1, l2) << " " << min(r1, r2);
+        }
     }
-    else {
-        cout << "-1";
-    }
+
 }
